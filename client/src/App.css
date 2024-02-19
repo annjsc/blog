@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.navLinks{
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+  align-items: center;
+}
+
+.logo{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+/* Text Entries */
+.entry{
+  padding: 20px;
+}
+
+.entry h1{
+  font-size: 25px;
+}
+
+.entry h3{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.entry .about{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.about .author{
+  text-decoration: none;
+  color: black;
+}
+
+/*  Photo Grid  */
+
+.photoGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+  list-style: none;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+/*  Login Page  */
+
+.login, .register{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 100%;
+  border-radius:  5px;
+  border: 1px solid lightgrey;
+}
+
+.register button, .login button{
+  width: 100%;
+  display: block;
+  border: 1px solid lightgrey;
+  border-radius:  5px;
+  padding: 2.5px;
+}
